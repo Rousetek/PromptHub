@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# 🚀 PromptHub — The Open Source AI Prompt Repository
 
-## Project info
+![PromptHub Logo](PromptHub.png)
 
-**URL**: https://lovable.dev/projects/171ddace-5df5-4bac-9914-a2f03759dc57
+## 🔮 What is PromptHub?
 
-## How can I edit this code?
+**PromptHub** is your ultimate open-source AI prompt repository, designed for the new era of AI engineering.  
+Whether you're building with GPT, Claude, LLaMA, Gemini, or custom LLMs — PromptHub gives you:
 
-There are several ways of editing your application.
+- 🧠 **Prompt Engineering Collaboration**  
+- 🔄 **Version Control for Prompts**  
+- 🌐 **Community Forking and Sharing**  
+- ⚡ **Instant Testing and Prompt Execution** *(coming soon)*
 
-**Use Lovable**
+> Think of it like *GitHub for AI Prompts*.  
+> Fully open-source. Fully community-driven. Fully AI-native.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/171ddace-5df5-4bac-9914-a2f03759dc57) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 Why PromptHub?
 
-**Use your preferred IDE**
+The future of AI is not just about models — it's about the prompts that control them.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ✅ Store and manage your best prompts.
+- ✅ Share, fork, and remix community prompts.
+- ✅ Build public or private prompt repositories.
+- ✅ Stay organized across all your AI projects.
+- ✅ Build better agents, apps, and automations.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠 Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+PromptHub is built with:
+- React ⚛️
+- Node.js 🖥️
+- MongoDB 🗄️
+- Express.js 🚀
+- TailwindCSS 💅
+- OpenAI / Claude / OpenRouter APIs 🧬
+- OAuth2 Authentication 🔐
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🎯 Core Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- 🔖 **Prompt Repository Management**
+- 🌐 **Public & Private Repositories**
+- 🧪 **Prompt Testing Playground (WIP)**
+- 📊 **Prompt Usage Analytics (Future Release)**
+- 🤝 **Open Collaboration & Forking**
+- 🔒 **Secure Auth & User Management**
+
+---
+
+## 🚀 Quick Start
+
+1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/yourusername/prompthub.git
+cd prompthub
+```
+
+2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+3️⃣ Start the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Lovable Project Integration
 
-**Use GitHub Codespaces**
+This project is also available on Lovable:
+- **URL**: https://lovable.dev/projects/171ddace-5df5-4bac-9914-a2f03759dc57
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can edit this code in several ways:
 
-## What technologies are used for this project?
+1. **Use Lovable**
+   - Visit the [Lovable Project](https://lovable.dev/projects/171ddace-5df5-4bac-9914-a2f03759dc57)
+   - Changes made via Lovable will be committed automatically to this repo
 
-This project is built with:
+2. **Use your preferred IDE**
+   - Clone this repo and push changes
+   - Changes will be reflected in Lovable
+   - Requires Node.js & npm installed
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. **Edit directly in GitHub**
+   - Use the GitHub web interface
+   - Click the "Edit" button (pencil icon)
+   - Make and commit your changes
 
-## How can I deploy this project?
+4. **Use GitHub Codespaces**
+   - Launch a new Codespace environment
+   - Edit files directly within Codespaces
+   - Commit and push your changes
 
-Simply open [Lovable](https://lovable.dev/projects/171ddace-5df5-4bac-9914-a2f03759dc57) and click on Share -> Publish.
+## Deployment
 
-## Can I connect a custom domain to my Lovable project?
+You can deploy this project in two ways:
 
-Yes, you can!
+1. **Via Lovable**
+   - Open [Lovable](https://lovable.dev/projects/171ddace-5df5-4bac-9914-a2f03759dc57)
+   - Click on Share -> Publish
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. **Custom Domain**
+   - Navigate to Project > Settings > Domains
+   - Click Connect Domain
+   - Follow the [custom domain setup guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
